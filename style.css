@@ -1,0 +1,167 @@
+*{
+		margin:0;
+		padding:0;
+		border:0;
+		outline:none;
+
+}
+
+body {
+
+	font-family: 'Special Elite';
+	font-size: 18px;
+	background-image: url("img/bg.png");
+
+}
+
+#header{
+
+	color: #c4824d;
+	background-color: black;
+	text-align: center;
+	font: 'Special Elite', cursive;
+	padding-top: 2%;
+}
+
+.clearfix{
+	clear:both;
+	}
+
+#container {
+	
+	
+}
+
+#player{
+	width:475px;
+	height: 800px;
+	margin-left:36%;
+	margin-top: 2%;
+	background-image: url("img/abc.png")no-repeat;
+	padding-top: 2%
+	
+
+
+}
+
+#radio-info {
+
+
+	display: block;
+  overflow: auto;
+}
+
+#upload{
+	text-align: center;
+	font-weight: bold;
+	width: 370px;
+	height:110px;
+	border: solid black;
+	display: block;
+  overflow: auto;
+  border-radius: 20px;
+
+}
+
+
+/*input#volue{
+	width:95%;
+	-webkit-appearance: none !important;
+	margin-left: 2%;
+	background: #666;
+	height: 1px;
+	margin-bottom: 20px;
+}*/
+/*
+input#volume ::-webkit-slider-thumb{
+	-webkit-appearance: none !important;
+	background: url("img/stp.png") no-repeat;
+	height: 12px;
+	width: 12px;
+
+}*/
+
+#radio-buttons{
+	width: 370px;
+	height:110px;
+	border: solid black;
+	display: block;
+  overflow: auto;
+  border-radius: 20px;
+  margin-top: 1%;
+}
+
+button#back{
+	width: 100px;
+	height: 100px;
+	background: url("img/back.png")no-repeat;
+}
+
+
+button#play{
+	width: 100px;
+	height: 100px;
+	background: url("img/play.png")no-repeat;
+	font-weight: bold;
+}
+
+button#pause{
+	width: 100px;
+	height: 100px;
+	background: url("img/pause.png")no-repeat;
+	
+}
+
+
+button#skip{
+	width: 150px;
+	height: 100px;
+	background: url("img/skip.png")no-repeat;
+	
+}
+
+/*#archive{
+	list-style: none;
+	padding: 10px;
+}
+
+#archive li{
+	cursor: pointer;
+	margin: 5px;
+}
+
+#archive li.active{
+	font-weight: bold;
+	padding: 3px;
+	background: #666;
+
+}
+
+#progressBar{
+
+	width: 400px;
+	height:20px;
+}*/
+
+/*#progress{
+	vertical-align: center;
+	height: 33px;
+	width: 486px;
+	display: inline-block;
+	background-image:url("img/progress.png") ;
+}
+*/
+/*#duration{
+	position: absolute;
+	top: 0;
+	right: 10px;
+	padding: 4px 8px;
+	background: #000;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#tracker{
+	position: relative;
+	width: 100%;
+}*/

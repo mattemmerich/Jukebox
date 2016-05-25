@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ABC No Radio</title>
+	<link rel = "stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src = "script.js"></script>
+</head>
+<body>
+	<div id="header">
+	<h1>ABC No Radio</h1><link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+	<h6>ABC NO Rio Matinee Archive 1991-2016</h6>
+	</div>
+	<audio id="music">
+		<source id="source" src="mp3/atticus_finch.mp3" type="audio/mp3">
+	</audio>
+	<div id = "container">
+		<div id="player">
+		
+			<div id="radio-info">
+				<img src="img/abc.png" height="430" width="365">
+			</div>
+
+			<div id="upload">
+				
+					Song:<br>
+					<input id="sub_song" name="Song">
+					<br>
+					Artist:<br>
+					<input id="sub_artist" name="Artist">
+					<br><br>
+					url:<br>
+					<input id="sub_url" name="URL">
+					<br><br>
+					<button id="submit">Submit</button>
+					
+			</div>
+
+			
+			<div id = "radio-buttons">
+					<button id="back"></button>
+					<button id="play"></button>
+					<button id="pause"></button>
+					<button id="skip"></button>
+			</div>
+
+			<span id="song"> - </span> - <span id="artist"></span> - <span id="date">
+
+			<div id= "progress">
+
+			</div>
+		<!-- 	<div class= "clear fix"></div>
+				<div id="tracker">
+					<div id= "progress bar">
+					<span id= "progress"></span>
+			  </div>
+ 				  </div>
+				  <span id="duration"></span> 
+			<div class ="clearfix"></div>
+			<br>
+			<br>
+			<ul id = "archive"> -->
+				<!-- <li song = "Bouncing Souls - Manthem.mp3" artist ="Bouncing Souls" date = "9/14/2010">Manthem.mp3</li><link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+				<li song = "Death Mold - Unknown Title.mp3" artist ="Death Mold" date = "11/06/2006">Unknown_Title.mp3</li>
+				<li song = "The Casualties - Ugly Bastards.mp3" artist ="The Casualties" date = "??/??/1991">Ugly_Bastards.mp3</li>
+				<li song = "Toxic Narcotic - Shoot People Not Dope.mp3" artist ="Toxic Narcotic" date = "??/??/2004">Shoot_People_Not_Dope.mp3</li>
+				<li song = "Heavy Negatives - Wound.mp3" artist ="Heavy Negatives" date = "9/??/2015">Wound.mp3</li>
+				<li song = "Mankind? - Selfish Schism.mp3" artist ="Mankind?" date = "10/?/1991">Selfish_Schism.mp3</li>
+				<li song = "Paint It Black - Atticus Finch.mp3" artist ="Paint It Black" date = "11/?/2005">Atticus_Finch.mp3</li>
+			 </ul>
+
+
+     </div>
+
+
+
+	</div>
+
+</body>
+</html>
