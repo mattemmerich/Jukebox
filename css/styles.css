@@ -1,0 +1,208 @@
+
+/*default*/
+.mobile-visible { display:none;}
+
+/*mobile*/
+@media all and (max-width: 400px){
+
+*{
+		margin:0;
+		padding:0;
+		border:0;
+		outline:none;
+}	
+	
+body {
+	font-family: 'Special Elite';
+	font-size: 18px;
+	background-color: #c4824d;
+}
+
+
+
+#header{
+
+	color: #c4824d;
+	background-color: black;
+	font: 'Special Elite', cursive;
+	padding-top: 2%;
+}
+
+#header.c-hamburger--htx {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 96px;
+  height: 96px;
+  font-size: 0;
+  text-indent: -9999px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  float:right;
+}
+
+#header.c-hamburger--htx:focus {
+  outline: none;
+}
+
+#header.c-hamburger--htx span {
+  display: block;
+  position: absolute;
+  top: 44px;
+  left: 18px;
+  right: 18px;
+  height: 8px;
+  background: white;
+}
+
+#header.c-hamburger--htx span::before,
+#header.c-hamburger--htx span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background-color: #fff;
+  content: "";
+}
+
+#header.c-hamburger--htx span::before {
+  top: -20px;
+}
+
+#header.c-hamburger--htx span::after {
+  bottom: -20px;
+}
+
+#header.c-hamburger--htx {
+  background-color: #faa31a;
+}
+
+
+#header.c-hamburger--htx span {
+  transition: background 0s 0.3s;
+}
+
+#header.c-hamburger--htx span::before,
+#header.c-hamburger--htx span::after {
+  transition-duration: 0.3s, 0.3s;
+  transition-delay: 0.3s, 0s;
+}
+
+#header.c-hamburger--htx span::before {
+  transition-property: top, transform;
+}
+
+#header.c-hamburger--htx span::after {
+  transition-property: bottom, transform;
+}
+
+/* active state, menu open */
+.c-hamburger--htx.is-active {
+  background-color: #cb0032;
+}
+
+.c-hamburger--htx.is-active span {
+  background: none;
+}
+
+.c-hamburger--htx.is-active span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.c-hamburger--htx.is-active span::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+.c-hamburger--htx.is-active span::before,
+.c-hamburger--htx.is-active span::after {
+  transition-delay: 0s, 0.3s;
+}
+
+
+.clearfix{
+	clear:both;
+}
+
+#radio-info {
+	width:475px;
+	height: 450px;
+	margin-left:4%;
+	margin-top: 4%;
+	background-image: url("img/abc.png")no-repeat;
+	display: block;
+  overflow: auto;
+}
+
+#face{
+	text-align: center;
+	font-weight: bold;
+	width: 380px;
+	height:50px;
+	border: solid black;
+	display: block;
+  overflow: auto;
+  border-radius: 20px;
+  margin-top:1%;
+  padding-top:2%;
+  padding-left:3%;
+}
+
+
+#radio-buttons{
+	width: 380px;
+	height:110px;
+	border: solid black;
+	display: block;
+  overflow: auto;
+  border-radius: 10px;
+  margin-top: 1%;
+  padding-left:3%;
+}
+
+button#back{
+	width: 100px;
+	height: 100px;
+	background-image: url("img/back.png")no-repeat;
+	
+}
+
+
+button#play{
+	width: 100px;
+	height: 100px;
+	background-image: url("img/play.png")no-repeat;
+}
+
+button#pause{
+	width: 100px;
+	height: 100px;
+	background-image: url("img/pause.png")no-repeat;
+}
+
+button#skip{
+	width: 150px;
+	height: 100px;
+	background-image: url("img/skip.png")no-repeat;
+	
+}
+
+}
+/*tablet*/
+@media all and (max-width: 768px){
+}
+
+
+
+/*desktop*/
+@media all and (min-width: 769px){
+}
+

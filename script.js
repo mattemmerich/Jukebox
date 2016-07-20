@@ -60,7 +60,7 @@ $(document).ready(function(){
 		this.play = function(){
 			console.log('the track is playing');
 			player.play();
-			$('#song').text(this.archive[i].song
+			$('#song').text(this.archive[i].song)
 			$('#artist').text(this.archive[i].artist)
 			$('#date').text(this.archive[i].date)
 			// str.match(/(mp3\/)(\w+)(\.mp3)/)[2]
@@ -170,12 +170,21 @@ $(document).ready(function(){
 	// 	myRadio.back();
 	// });
 
-	zero = new Track("mp3/Wound.mp3", "Heavy Negatives", "09/??/2015")
+	zero = new Track("mp3/Wound.mp3", "Heavy Negatives", "09/XX/2015")
 	one = new Track("mp3/Manthem.mp3", "Bouncing Souls", "09/14/2010")
-	two = new Track("mp3/Selfish_Schism.mp3", "Mankind?", "10/??/1991")
-	three = new Track("mp3/Ugly_Bastards.mp3", "The Casulaties", "??/??/1991")
+	two = new Track("mp3/Selfish_Schism.mp3", "Mankind?", "10/XX/1991")
+	three = new Track("mp3/Ugly_Bastards.mp3", "The Casulaties", "XX/XX/1991")
 	four = new Track("mp3/Unknown_Title.mp3", "Death Mold", "11/06/2006")
-	five = new Track("mp3/Shoot_People_Not_Dope.mp3", "Toxic Narcotic", "??/??/2004")
+	five = new Track("mp3/Shoot_People_Not_Dope.mp3", "Toxic Narcotic", "XX/XX/2004")
+	six = new Track("mp3/first_song.mp3", "The Skabs", "XX/XX/199X")
+	seven = new Track("mp3/Chattyang.mp3", "Sangharsha", "10/18/2014")
+	eight = new Track("mp3/Elmundo.mp3", "R-Tronika", "04/25/2015")
+	nine = new Track("mp3/Unknown_Title_2.mp3", "Dysfunctional Youth", "XX/XX/1995")
+	ten = new Track("mp3/enziguri.mp3", "Empire State", "04/07/2016")
+	eleven = new Track("mp3/why_suffer.mp3", "GO!", "07/08/2006")
+	twelve = new Track("mp3/Unknown_Title.mp3", "A$stroland", "04/13/13")
+	thirteen = new Track("mp3/Justice_For_All_&_Know_It_All.mp3", "76% Uncertain", "07/25/2009")
+	
 
 
 
@@ -195,6 +204,16 @@ $(document).ready(function(){
 	myRadio.load(three);
 	myRadio.load(four);
 	myRadio.load(five);
+	myRadio.load(six);
+	myRadio.load(seven);
+	myRadio.load(eight);
+	myRadio.load(nine);
+	myRadio.load(ten);
+	myRadio.load(eleven);
+	myRadio.load(twelve);
+	myRadio.load(thirteen);
+	
+
 
 
 // $('#song').text(this.archive[i].song.match(/(mp3\/)(\w+)(\.mp3)/)[2])/////////LINE 63//////////////
